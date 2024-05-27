@@ -13,7 +13,7 @@ function Appbar(){
           }
           console.log(data);
         }
-        function callback1(res) {
+        function callback1(res) { 
          
           res.json().then(callback2);
           console.log("callback2 sended");
