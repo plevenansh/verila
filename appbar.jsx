@@ -15,7 +15,7 @@ function Appbar(){
         }
         function callback1(res) { 
          
-          res.json().then(callback2);
+          res.json().then(callback2); 
           console.log("callback2 sended");
         }
         fetch("http://localhost:3000/admin/me", {
