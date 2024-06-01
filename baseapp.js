@@ -1,4 +1,4 @@
- const express = require('express');
+const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const jwt = require('jsonwebtoken');
@@ -9,6 +9,7 @@ app.use(bodyParser.json());
 app.use(express.json());
 
 const SECRET= 'secrat';
+
 
 const userSchema = new mongoose.Schema({
   username:{type: String},// above and below same
