@@ -15,6 +15,7 @@ const userSchema = new mongoose.Schema({
   username:{type: String},// above and below same
   password: String,  // above and below same
   purchasedCourses: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Course' }]
+  
 })
 
 const adminSchema = new mongoose.Schema({
