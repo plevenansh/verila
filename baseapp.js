@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(express.json());
 
 const SECRET= 'secrat';
-
+ 
 
 const userSchema = new mongoose.Schema({
   username:{type: String},// above and below same
