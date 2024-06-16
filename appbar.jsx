@@ -11,7 +11,7 @@ function Appbar(){
           if(data.username){
             setuserEmail(data.username)  
           }
-            
+             
           console.log(data);
         }
         function callback1(res) { 
