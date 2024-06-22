@@ -7,7 +7,7 @@ function Appbar(){
     const navigate = useNavigate();
     const [userEmail,setuserEmail] =useState(null); 
     useEffect(()=>{
-        function callback2(data) {
+        function callback2(data) { 
           if(data.username){
             setuserEmail(data.username)  
           }
